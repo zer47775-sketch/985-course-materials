@@ -1,13 +1,13 @@
 # 985高校三门课程资料
 
 本仓库提供高等数学、线性代数、大学物理资料的索引和下载说明。
-资料包放在本仓库的 **Releases** 页面，按课程选择下载。
+资料包放在 [Releases 下载页](https://github.com/zer47775-sketch/985-course-materials/releases/tag/v2026.11.11)，按课程选择下载。
 
 | 课程 | 资料数 | Releases 附件 |
 |---|---:|---|
-| 高等数学 | 2377 | `01-calculus-985.zip` |
-| 线性代数 | 902 | `02-linear-algebra-985.zip` |
-| 大学物理 | 858 | `03-university-physics-985.zip` |
+| 高等数学 | 2377 | [高等数学 ZIP](https://github.com/zer47775-sketch/985-course-materials/releases/download/v2026.11.11/01-calculus-985.zip) |
+| 线性代数 | 902 | [线性代数 ZIP](https://github.com/zer47775-sketch/985-course-materials/releases/download/v2026.11.11/02-linear-algebra-985.zip) |
+| 大学物理 | 858 | [大学物理 ZIP](https://github.com/zer47775-sketch/985-course-materials/releases/download/v2026.11.11/03-university-physics-985.zip) |
 
 总计4137份，原文件合计3,515,991,542字节。学校按清北、其他C9、其他985安排处理；同层编号不代表校际排名。
 
