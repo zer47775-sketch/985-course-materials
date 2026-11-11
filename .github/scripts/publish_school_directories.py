@@ -163,7 +163,10 @@ class Publisher:
   self.env=dict(os.environ)
   for k in ('GIT_CURL_VERBOSE','GIT_TRACE','GIT_TRACE_CURL'):self.env.pop(k,None)
   self.env['GIT_TERMINAL_PROMPT']='0'
-  count=int(self.env.get('GIT_CONFIG_COUNT','0'))
+  # Replace bootstrap configuration to avoid duplicate Authorization headers.
+  for k in list(self.env):
+   if k=='GIT_CONFIG_COUNT' or re.fullmatch(r'GIT_CONFIG_(?:KEY|VALUE)_\d+',k):self.env.pop(k)
+  count=0
   for key,value in [('credential.helper',''),('http.https://github.com/.extraheader','AUTHORIZATION: basic '+base64.b64encode(('x-access-token:'+self.token).encode()).decode())]:
    self.env[f'GIT_CONFIG_KEY_{count}']=key;self.env[f'GIT_CONFIG_VALUE_{count}']=value;count+=1
   self.env['GIT_CONFIG_COUNT']=str(count)
@@ -177,11 +180,12 @@ class Publisher:
     print(f'Push interrupted; retrying the same commit ({attempt+1}/20)',flush=True);time.sleep(min(30,2**min(attempt,5)))
  def commit_paths(self,paths,message):
   if not paths:return
-  self.git('add','--',*paths)
+  # These manifest-verified data paths may contain original ZIP/RAR files.
+  self.git('add','--force','--',*paths)
   result=subprocess.run(['git','-C',str(self.root),'diff','--cached','--quiet'],env=self.env)
   if result.returncode==0:return
   if result.returncode!=1:raise RuntimeError('Could not inspect staged files')
-  self.git('commit','-m',message);self.push()
+  self.git('commit','--quiet','-m',message);self.push()
  def api(self,path):
   headers={'Authorization':'Bearer '+self.token,'Accept':'application/vnd.github+json','User-Agent':'985-school-directory-publisher'}
   for attempt in range(8):
