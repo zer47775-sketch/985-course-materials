@@ -1,0 +1,47 @@
+name: Publish browsable university and subject directories
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-985-school-directories
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Publish verified original files and detailed directories
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY_ID: ${{ github.repository_id }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64,json,os,pathlib,subprocess,time,urllib.request
+          repo='zer47775-sketch/985-course-materials'
+          if os.environ['GITHUB_REPOSITORY']!=repo or os.environ['GITHUB_REPOSITORY_ID']!='1454032300':
+              raise SystemExit('Wrong repository')
+          token=os.environ['GITHUB_TOKEN']
+          env=dict(os.environ)
+          for key in ('GIT_TRACE','GIT_TRACE_CURL','GIT_CURL_VERBOSE'):env.pop(key,None)
+          env.update(GIT_TERMINAL_PROMPT='0',GIT_CONFIG_COUNT='2',GIT_CONFIG_KEY_0='credential.helper',GIT_CONFIG_VALUE_0='',
+              GIT_CONFIG_KEY_1='http.https://github.com/.extraheader',
+              GIT_CONFIG_VALUE_1='AUTHORIZATION: basic '+base64.b64encode(('x-access-token:'+token).encode()).decode())
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'985-school-repository'
+          root.mkdir(parents=True,exist_ok=True)
+          subprocess.run(['git','init',str(root)],check=True,env=env)
+          subprocess.run(['git','-C',str(root),'remote','add','origin','https://github.com/'+repo+'.git'],check=True,env=env)
+          for attempt in range(20):
+              result=subprocess.run(['git','-C',str(root),'fetch','--depth=1','origin','main'],env=env)
+              if result.returncode==0:break
+              if attempt==19:raise SystemExit('Repository fetch repeatedly interrupted')
+              time.sleep(min(30,2**min(attempt,5)))
+          subprocess.run(['git','-C',str(root),'checkout','-B','main','FETCH_HEAD'],check=True,env=env)
+          subprocess.run(['python3',str(root/'.github/scripts/publish_school_directories.py'),'--root',str(root)],env=env,check=True)
+          PY
