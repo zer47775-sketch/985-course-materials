@@ -1,0 +1,62 @@
+name: Assemble verified 985 release
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_sha256:
+        description: SHA256 of the committed .github/release-chunks.json receipt
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-441750661-assembly
+  cancel-in-progress: false
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Download this commit's assembler and bound manifest, then assemble
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROOF_REPOSITORY: ${{ github.repository }}
+          PROOF_REPOSITORY_ID: ${{ github.repository_id }}
+          PROOF_COMMIT: ${{ github.sha }}
+          MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64, hashlib, json, os, pathlib, re, subprocess, sys, urllib.parse, urllib.request
+          repo = 'zer47775-sketch/985-course-materials'
+          if os.environ['PROOF_REPOSITORY'] != repo or os.environ['PROOF_REPOSITORY_ID'] != '1454032300':
+              raise SystemExit('This workflow is bound to a different repository')
+          commit = os.environ['PROOF_COMMIT']
+          expected = os.environ['MANIFEST_SHA256'].strip()
+          if not re.fullmatch('[0-9a-f]{40}', commit) or not re.fullmatch('[0-9a-f]{64}', expected):
+              raise SystemExit('Invalid commit or manifest checksum')
+          target = pathlib.Path(os.environ['RUNNER_TEMP']) / '985-release-run'
+          target.mkdir(parents=True, exist_ok=True)
+          headers = {'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'],
+                     'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
+                     'User-Agent': '985-release-workflow'}
+          for remote, local in [('.github/scripts/assemble_release.py', 'assemble_release.py'),
+                                ('.github/release-chunks.json', 'release-chunks.json')]:
+              path = urllib.parse.quote(remote, safe='/')
+              url = 'https://api.github.com/repos/' + repo + '/contents/' + path + '?ref=' + commit
+              with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=90) as response:
+                  item = json.load(response)
+              if item.get('encoding') != 'base64' or item.get('size', 0) > 2 * 1024**2:
+                  raise SystemExit('Unexpected workflow resource representation')
+              data = base64.b64decode(item['content'])
+              if local == 'release-chunks.json' and hashlib.sha256(data).hexdigest() != expected:
+                  raise SystemExit('Committed chunk manifest checksum differs')
+              (target / local).write_bytes(data)
+          subprocess.run([sys.executable, str(target / 'assemble_release.py'),
+                          '--manifest', str(target / 'release-chunks.json'),
+                          '--work-dir', str(target / 'staging')], check=True)
+          PY
