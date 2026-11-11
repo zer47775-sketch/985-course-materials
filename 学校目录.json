@@ -1,0 +1,976 @@
+{
+  "source": "https://xytvwfgm9k.coze.site",
+  "generated_on": "2026-11-11",
+  "scope": {
+    "schoolRule": "仅985院校及其校区（tier<=2）",
+    "courses": [
+      "高等数学",
+      "线性代数",
+      "大学物理"
+    ],
+    "relatedCourseNote": "微积分、数学分析作为高等数学相关课程保留；高等代数作为线性代数相关课程保留，原课程名称不变。"
+  },
+  "recordCount": 43,
+  "processing_rule": "仅作为资料收集处理顺序；同层按校名排序，不代表校际排名，不评价具体课程或学科质量。",
+  "normalization_rule": "统一Unicode NFKC及空白后精确匹配；禁止前缀归类，严格保留原始school与其全部原始字段。",
+  "tier_labels": {
+    "0": "清华大学、北京大学",
+    "1": "其他C9院校",
+    "2": "其他985院校"
+  },
+  "sources": [
+    {
+      "title": "教育部：“985工程”学校名单",
+      "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200612/t20061206_128833.html",
+      "use": "985名单原始官方出处（检索可见，页面抓取存在重定向）"
+    },
+    {
+      "title": "教育部：“211工程”学校名单",
+      "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+      "use": "211名单原始官方出处（检索可见，页面抓取超时）"
+    },
+    {
+      "title": "中国石油大学（华东）发展规划处：“211工程”高校名单",
+      "url": "https://fzgh.upc.edu.cn/2018/0227/c7540a131858/page.psp",
+      "use": "按地区公开的完整211名单，地矿油分校区计为115名称；军医大学使用今名"
+    },
+    {
+      "title": "华中农业大学发展规划部：“211工程”学校名单",
+      "url": "https://fzc.hzau.edu.cn/info/1012/1764.htm",
+      "use": "211名单交叉核对"
+    },
+    {
+      "title": "教育部等三部委：关于公布第二轮“双一流”建设高校及建设学科名单的通知",
+      "url": "https://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html",
+      "use": "2022年第二轮双一流官方原始通知"
+    },
+    {
+      "title": "开封市教育体育局：第二轮“双一流”建设高校名单（147所）",
+      "url": "https://jtj.kaifeng.gov.cn/kfsjytyjwz/jytyjgsgg/1844974263031091200/7KmKIuY4.pdf",
+      "use": "政府站点附件中147所完整名称"
+    },
+    {
+      "title": "北京理工大学研究生教育研究中心：“C9联盟”高校名单",
+      "url": "https://cge.bit.edu.cn/sjxx/yjsjyjcpt/ynxx/b150573.htm",
+      "use": "C9九校名称及联盟性质，非官方综合排名"
+    },
+    {
+      "title": "中国人民大学：苏州校区简介",
+      "url": "https://sc.ruc.edu.cn/about/summary/index.htm",
+      "use": "苏州校区归属核对"
+    },
+    {
+      "title": "北京交通大学：威海校区简介",
+      "url": "https://wh.bjtu.edu.cn/xqgk/index.htm",
+      "use": "威海校区归属核对"
+    },
+    {
+      "title": "浙江大学：国际联合学院（海宁国际校区）简介",
+      "url": "https://www.intl.zju.edu.cn/zh-hans/about/campus-introduce",
+      "use": "海宁国际校区归属核对"
+    },
+    {
+      "title": "教育部：同意上海体育学院更名为上海体育大学的函",
+      "url": "https://www.moe.gov.cn/srcsite/A03/s181/202306/t20230616_1064609.html",
+      "use": "上海体育大学别名核对"
+    }
+  ],
+  "schools": [
+    {
+      "school": "北京大学",
+      "region": "北京",
+      "account": "清北情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/2677bee79c74"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "北京大学",
+      "tier": 0,
+      "tier_label": "清华大学、北京大学",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 0
+    },
+    {
+      "school": "清华大学",
+      "region": "北京",
+      "account": "清北情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/14f6cd970c67"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "清华大学",
+      "tier": 0,
+      "tier_label": "清华大学、北京大学",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 1
+    },
+    {
+      "school": "上海交通大学",
+      "region": "上海",
+      "account": "闵荒情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/71858c598cb5"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "上海交通大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 2
+    },
+    {
+      "school": "中国科学技术大学",
+      "region": "安徽",
+      "account": "",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/e5cea1afe7e2"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中国科学技术大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 3
+    },
+    {
+      "school": "南京大学",
+      "region": "江苏",
+      "account": "钟亭情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/059f2eae1887"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "南京大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 4
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "region": "东三省",
+      "account": "紫丁香球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/90f2ba64db12"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "哈尔滨工业大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 5
+    },
+    {
+      "school": "复旦大学",
+      "region": "上海",
+      "account": "五角场情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/071b90aaf513"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "复旦大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 6
+    },
+    {
+      "school": "浙江大学",
+      "region": "浙江/江苏",
+      "account": "求是情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/0a2392fbd579"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "浙江大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 7
+    },
+    {
+      "school": "浙江大学国际联合学院（浙大海宁国际校区）",
+      "region": "浙江/江苏",
+      "account": "iZ星球",
+      "resources": {},
+      "_sourceQueries": [
+        "大学",
+        "学院"
+      ],
+      "canonical_school": "浙江大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据明确列出的校区/旧名/原始记录别名匹配；依据公开建设高校名单分组。",
+      "matched_by": "explicit_alias",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 8
+    },
+    {
+      "school": "西安交通大学",
+      "region": "陕西/山西/甘肃",
+      "account": "仙交说",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/e9eec1d83ccd"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "西安交通大学",
+      "tier": 1,
+      "tier_label": "其他C9院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": true,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 9
+    },
+    {
+      "school": "东北大学",
+      "region": "东三省",
+      "account": "NEU星球",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/3be0dfb452f8"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "东北大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 10
+    },
+    {
+      "school": "东北大学秦皇岛分校",
+      "region": "东三省",
+      "account": "东秦星球",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/4c6f6ce5a9fb"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "东北大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据明确列出的校区/旧名/原始记录别名匹配；依据公开建设高校名单分组。",
+      "matched_by": "explicit_alias",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 11
+    },
+    {
+      "school": "东南大学",
+      "region": "浙江/江苏",
+      "account": "金陵情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/561f12801822"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "东南大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 12
+    },
+    {
+      "school": "中南大学",
+      "region": "湖南/江西",
+      "account": "麓山南路情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/b097c5a43b78"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中南大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 13
+    },
+    {
+      "school": "中国人民大学",
+      "region": "北京",
+      "account": "一勺池情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/8654952f6e90"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中国人民大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 14
+    },
+    {
+      "school": "中国人民大学苏州校区",
+      "region": "江苏",
+      "account": "江南人星球",
+      "resources": {},
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中国人民大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据明确列出的校区/旧名/原始记录别名匹配；依据公开建设高校名单分组。",
+      "matched_by": "explicit_alias",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 15
+    },
+    {
+      "school": "中国农业大学",
+      "region": "北京",
+      "account": "农大球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/b0b3b96b2f28"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中国农业大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 16
+    },
+    {
+      "school": "中国海洋大学",
+      "region": "山东",
+      "account": "每羊情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/78d08d10bbd2"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中国海洋大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 17
+    },
+    {
+      "school": "中央民族大学",
+      "region": "北京",
+      "account": "民大墙墙墙",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/cddc08377e1d"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中央民族大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 18
+    },
+    {
+      "school": "中山大学",
+      "region": "广东",
+      "account": "鸭大情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/8dbddf484d54"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "中山大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 19
+    },
+    {
+      "school": "兰州大学",
+      "region": "陕西/山西/甘肃",
+      "account": "积石堂球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/fb036ad1c3fb"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "兰州大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 20
+    },
+    {
+      "school": "北京师范大学",
+      "region": "北京",
+      "account": "北师球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/1fd8a3c92f5b"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "北京师范大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 21
+    },
+    {
+      "school": "北京师范大学珠海校区",
+      "region": "广东",
+      "account": "珠珠球知道",
+      "resources": {},
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "北京师范大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据明确列出的校区/旧名/原始记录别名匹配；依据公开建设高校名单分组。",
+      "matched_by": "explicit_alias",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 22
+    },
+    {
+      "school": "北京理工大学",
+      "region": "北京",
+      "account": "北理球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/81f2dae2141b"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "北京理工大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 23
+    },
+    {
+      "school": "北京航空航天大学",
+      "region": "北京",
+      "account": "星空情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/e9f390055d46"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "北京航空航天大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 24
+    },
+    {
+      "school": "华东师范大学",
+      "region": "上海",
+      "account": "丽娃球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/0a900317ac7a"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "华东师范大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 25
+    },
+    {
+      "school": "华中科技大学",
+      "region": "湖北",
+      "account": "华小科情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/47969bf74de9"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "华中科技大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 26
+    },
+    {
+      "school": "华南理工大学",
+      "region": "广东",
+      "account": "五山情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/e01b457b984b"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "华南理工大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 27
+    },
+    {
+      "school": "南开大学",
+      "region": "天津",
+      "account": "天南情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/a0b6f4d6d0c4"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "南开大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 28
+    },
+    {
+      "school": "厦门大学",
+      "region": "福建",
+      "account": "芙蓉湖情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/12683afd16cc"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "厦门大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 29
+    },
+    {
+      "school": "吉林大学",
+      "region": "东三省",
+      "account": "极大情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/6c4dc2d27dec"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "吉林大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 30
+    },
+    {
+      "school": "同济大学",
+      "region": "上海",
+      "account": "济济济",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/fe881e1ca95e"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "同济大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 31
+    },
+    {
+      "school": "四川大学",
+      "region": "四川",
+      "account": "大红门情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/0187e7d798ad"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "四川大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 32
+    },
+    {
+      "school": "大连理工大学",
+      "region": "东三省",
+      "account": "凌水球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/7e62e263eabf"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "大连理工大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 33
+    },
+    {
+      "school": "天津大学",
+      "region": "天津",
+      "account": "天南情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/d0f2bb90cf68"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "天津大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 34
+    },
+    {
+      "school": "山东大学",
+      "region": "山东",
+      "account": "世一大情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/05908cf507a6"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "山东大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 35
+    },
+    {
+      "school": "山东大学（威海）",
+      "region": "山东",
+      "account": "山威球知道",
+      "resources": {},
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "山东大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据明确列出的校区/旧名/原始记录别名匹配；依据公开建设高校名单分组。",
+      "matched_by": "explicit_alias",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 36
+    },
+    {
+      "school": "武汉大学",
+      "region": "湖北",
+      "account": "华武情报站",
+      "resources": {
+        "真题": "https://appFjAG1au7335.h5.xiaoeknow.com/p/decorate/page/eyJpZCI6IjQ2NjM5MjEifQ"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "武汉大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 37
+    },
+    {
+      "school": "湖南大学",
+      "region": "湖南/江西",
+      "account": "登高路情报站",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/fb44d61515c0"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "湖南大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 38
+    },
+    {
+      "school": "电子科技大学",
+      "region": "四川",
+      "account": "成电球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/e1b863b67b7f"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "电子科技大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 39
+    },
+    {
+      "school": "西北农林科技大学",
+      "region": "陕西/山西/甘肃",
+      "account": "西农球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/083678c4c1a4"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "西北农林科技大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 40
+    },
+    {
+      "school": "西北工业大学",
+      "region": "陕西/山西/甘肃",
+      "account": "工大小星球",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/93963d59b4d3"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "西北工业大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 41
+    },
+    {
+      "school": "重庆大学",
+      "region": "四川",
+      "account": "重大球知道",
+      "resources": {
+        "真题": "https://pan.quark.cn/s/97ddb258eda2"
+      },
+      "_sourceQueries": [
+        "大学"
+      ],
+      "canonical_school": "重庆大学",
+      "tier": 2,
+      "tier_label": "其他985院校",
+      "tier_reason": "依据公开建设高校名单分组。",
+      "matched_by": "exact_name",
+      "is_c9": false,
+      "is_985": true,
+      "is_211": true,
+      "is_double_first_2022": true,
+      "priority_order": 42
+    }
+  ]
+}
