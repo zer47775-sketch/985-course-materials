@@ -1,0 +1,1183 @@
+{
+  "schema_version": 1,
+  "repository": {
+    "full_name": "zer47775-sketch/985-course-materials",
+    "id": 1454032300
+  },
+  "release": {
+    "id": 441750661,
+    "tag_name": "v2026.11.11"
+  },
+  "upload_set_id": "20261111a",
+  "chunk_size_bytes": 16777216,
+  "assets": [
+    {
+      "name": "01-calculus-985.zip",
+      "size_bytes": 1688996057,
+      "sha256": "4c1ae5f42214810c24a5efd6b465930d4f5dc8270d5c2e0a54bfc1e96d780dd7",
+      "parts": [
+        {
+          "index": 0,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0001-of-0101",
+          "asset_id": 736173044,
+          "size_bytes": 16777216,
+          "sha256": "9ebdf0008aa44d6d0e87515a78dd6c3279ce30100d31cce4924407b1beb5242f"
+        },
+        {
+          "index": 1,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0002-of-0101",
+          "asset_id": 736173025,
+          "size_bytes": 16777216,
+          "sha256": "a061830ee1c7f5063bd99c29c5fcf97e51093f02505985f90ae3cd3a7c846207"
+        },
+        {
+          "index": 2,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0003-of-0101",
+          "asset_id": 736173021,
+          "size_bytes": 16777216,
+          "sha256": "e5eb7ee42afe732424d729ee5a1fe044c30dcebbe2db91b56ea412808e058950"
+        },
+        {
+          "index": 3,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0004-of-0101",
+          "asset_id": 736173013,
+          "size_bytes": 16777216,
+          "sha256": "0f302833ddbc389c039f0ec2f9c0afa4082caf3bf60708d5f8a870a58e9cc403"
+        },
+        {
+          "index": 4,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0005-of-0101",
+          "asset_id": 736173527,
+          "size_bytes": 16777216,
+          "sha256": "7a94aa05c047e1a37ee2d2e73370d52f289207f3f1070b703cc1d4ec91f6be65"
+        },
+        {
+          "index": 5,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0006-of-0101",
+          "asset_id": 736174440,
+          "size_bytes": 16777216,
+          "sha256": "300405add8c8ee05c0930ddc6b200e62f6fb66c084f5938041c0b5fb228c3ddc"
+        },
+        {
+          "index": 6,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0007-of-0101",
+          "asset_id": 736174459,
+          "size_bytes": 16777216,
+          "sha256": "ee5fb6f389a0792ff27d82c4a27c8a54b4c43ae1eaec208ee62ebffa87b8d04f"
+        },
+        {
+          "index": 7,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0008-of-0101",
+          "asset_id": 736174695,
+          "size_bytes": 16777216,
+          "sha256": "b997b9a9191eac1da9040adc62c5e85adae4ba2532ff3c076fb41eafce46ee88"
+        },
+        {
+          "index": 8,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0009-of-0101",
+          "asset_id": 736174789,
+          "size_bytes": 16777216,
+          "sha256": "7a5d54ff1aa417114d86a52c0aac784e719c1584d464ce91aa1e39b5b74ba80e"
+        },
+        {
+          "index": 9,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0010-of-0101",
+          "asset_id": 736175445,
+          "size_bytes": 16777216,
+          "sha256": "bd5acfe83d55b94562fb819ffc477ada75b6a5a949d9168df40acad8611deb4b"
+        },
+        {
+          "index": 10,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0011-of-0101",
+          "asset_id": 736175376,
+          "size_bytes": 16777216,
+          "sha256": "7bef85e445bb2345630e8791f9cf2db236c74fe1bed5b7d25d00b683fb49fe2b"
+        },
+        {
+          "index": 11,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0012-of-0101",
+          "asset_id": 736178818,
+          "size_bytes": 16777216,
+          "sha256": "36fd0c875b71613839683c22aa3194de76210dbb98634a739a32f5231a466cb2"
+        },
+        {
+          "index": 12,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0013-of-0101",
+          "asset_id": 736175759,
+          "size_bytes": 16777216,
+          "sha256": "a73b1b6f3dffb30327d5e327f951ad711df88408e1e949ce6c54383cd996ce27"
+        },
+        {
+          "index": 13,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0014-of-0101",
+          "asset_id": 736175983,
+          "size_bytes": 16777216,
+          "sha256": "34b3a85df3bc53decee3fbec6fde8e394cf2e7fcd104e746d83159443a2f79b2"
+        },
+        {
+          "index": 14,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0015-of-0101",
+          "asset_id": 736176383,
+          "size_bytes": 16777216,
+          "sha256": "2da64f70e485bb8710f4949d29f78cea8030f7bc1314116397468a1765cbc773"
+        },
+        {
+          "index": 15,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0016-of-0101",
+          "asset_id": 736176748,
+          "size_bytes": 16777216,
+          "sha256": "92fa0d52e1e026e245fdc7cf8be8339960fec5345156e7a8def8b9243186e2a2"
+        },
+        {
+          "index": 16,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0017-of-0101",
+          "asset_id": 736177048,
+          "size_bytes": 16777216,
+          "sha256": "21d9f84c052fecdbd332f9372b647f996db92f27865deed35608a533db89f3a6"
+        },
+        {
+          "index": 17,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0018-of-0101",
+          "asset_id": 736178053,
+          "size_bytes": 16777216,
+          "sha256": "ef12cf4e1726165d0f37de0f7cabfb2e15853aecbddacdbb197d884be541fe1b"
+        },
+        {
+          "index": 18,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0019-of-0101",
+          "asset_id": 736178324,
+          "size_bytes": 16777216,
+          "sha256": "62bc3703854f196faa810f0c6b5581d491cd4568e1e57868049cd9c7e9ace9c6"
+        },
+        {
+          "index": 19,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0020-of-0101",
+          "asset_id": 736178529,
+          "size_bytes": 16777216,
+          "sha256": "c063eb376ae48ddf4bdc89264edcfd98a2e4415c20d207d86cd939cb8a6d90e5"
+        },
+        {
+          "index": 20,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0021-of-0101",
+          "asset_id": 736178853,
+          "size_bytes": 16777216,
+          "sha256": "3b98954e09198ff291fd13aa4429aaad02d95b51588d9737a64eec09b801fa20"
+        },
+        {
+          "index": 21,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0022-of-0101",
+          "asset_id": 736179094,
+          "size_bytes": 16777216,
+          "sha256": "7bf7f9c96cdf62fff3d059f002a05f77bd07cc008e1c3203682893c4ff820151"
+        },
+        {
+          "index": 22,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0023-of-0101",
+          "asset_id": 736179231,
+          "size_bytes": 16777216,
+          "sha256": "b11fd8e2148b8a9b2c30c74891ba300be2a95d7342330781bbb79ac5a34c8194"
+        },
+        {
+          "index": 23,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0024-of-0101",
+          "asset_id": 736179680,
+          "size_bytes": 16777216,
+          "sha256": "a07fbb9d6485cc3527265062615d2187b635416c168c5b52aea45d903496e747"
+        },
+        {
+          "index": 24,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0025-of-0101",
+          "asset_id": 736179828,
+          "size_bytes": 16777216,
+          "sha256": "047298b2f456e844a180a668153ca2fe22aeec62edddaf52fc5b9482e537ea9e"
+        },
+        {
+          "index": 25,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0026-of-0101",
+          "asset_id": 736179872,
+          "size_bytes": 16777216,
+          "sha256": "6b4c92aeafea00d0426741ef279bd74df7a858d77e3e9976503f6fa58ecfc666"
+        },
+        {
+          "index": 26,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0027-of-0101",
+          "asset_id": 736181594,
+          "size_bytes": 16777216,
+          "sha256": "a96f1183cda6bc2c0e97545d0beb7d0fe1d73144c8b2028330985503e996d9e8"
+        },
+        {
+          "index": 27,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0028-of-0101",
+          "asset_id": 736181589,
+          "size_bytes": 16777216,
+          "sha256": "801e50da1f595c8ada9ebf54e90f0851d39b26c652887f61a082b14c7494b122"
+        },
+        {
+          "index": 28,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0029-of-0101",
+          "asset_id": 736181605,
+          "size_bytes": 16777216,
+          "sha256": "7fc6c6d8799d9a9143ec7592f1bb62ccb21f6b451cd360e19b1d2b879a175ea5"
+        },
+        {
+          "index": 29,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0030-of-0101",
+          "asset_id": 736181000,
+          "size_bytes": 16777216,
+          "sha256": "4c15e2eba7e31a6653885a0b27247b15ebec19b926c500c7d5b58359a089262e"
+        },
+        {
+          "index": 30,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0031-of-0101",
+          "asset_id": 736181622,
+          "size_bytes": 16777216,
+          "sha256": "4becd451ceac3ba4b9b5aff66d02a18d8915a3cb68ce9490b3525b4fcf08b6bd"
+        },
+        {
+          "index": 31,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0032-of-0101",
+          "asset_id": 736181904,
+          "size_bytes": 16777216,
+          "sha256": "68ee1550455f1560b24e5c994742f8c3f4a861760162e99b45ddbf8cf0f155f0"
+        },
+        {
+          "index": 32,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0033-of-0101",
+          "asset_id": 736182536,
+          "size_bytes": 16777216,
+          "sha256": "f8d67c6c387658ad9e8733a6591cce85ff6f6484fdd7d39dd85ce8fe50e3cf76"
+        },
+        {
+          "index": 33,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0034-of-0101",
+          "asset_id": 736182610,
+          "size_bytes": 16777216,
+          "sha256": "82c2aac8d30342cd9a8685fb40a380f5a9caa346f7edd9c62fc33821eaa7fb7c"
+        },
+        {
+          "index": 34,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0035-of-0101",
+          "asset_id": 736182750,
+          "size_bytes": 16777216,
+          "sha256": "01da35093094f75f2ab63b09a3c2f6397fdcf8b1183ddb44a254a64509b93922"
+        },
+        {
+          "index": 35,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0036-of-0101",
+          "asset_id": 736190587,
+          "size_bytes": 16777216,
+          "sha256": "43c7d0b80c5cbf0c4ecbf1553d099c371171d43a2c045a22baafd1f10f42a2c9"
+        },
+        {
+          "index": 36,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0037-of-0101",
+          "asset_id": 736183186,
+          "size_bytes": 16777216,
+          "sha256": "cdc7f5cdbc227ab9f73c5025cd2ccca21d05bd0c6f38a38af2b25bee2c84ea57"
+        },
+        {
+          "index": 37,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0038-of-0101",
+          "asset_id": 736183475,
+          "size_bytes": 16777216,
+          "sha256": "fd38f9a999d296152a7bbcff2b38b52dd05f82e3448c5d3a95b36af961a49bb8"
+        },
+        {
+          "index": 38,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0039-of-0101",
+          "asset_id": 736184018,
+          "size_bytes": 16777216,
+          "sha256": "3bea953b0ab5534b2996421b461d32d294109ecc36c4d61ef6858502950359b4"
+        },
+        {
+          "index": 39,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0040-of-0101",
+          "asset_id": 736183878,
+          "size_bytes": 16777216,
+          "sha256": "fd13a2b6f501fdcb6fc0001f41e724ec78f2fd9a21504c6912c0d32e4a847e55"
+        },
+        {
+          "index": 40,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0041-of-0101",
+          "asset_id": 736183959,
+          "size_bytes": 16777216,
+          "sha256": "6895675500aec48571b4d20ea90cf9c4fb7733f2bc780b6e7abcef09fcd29240"
+        },
+        {
+          "index": 41,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0042-of-0101",
+          "asset_id": 736184144,
+          "size_bytes": 16777216,
+          "sha256": "f01a663b86cb578acce108e3a04fa6ea35fe4c7a27e37fa80b7467b16f15b7d3"
+        },
+        {
+          "index": 42,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0043-of-0101",
+          "asset_id": 736184206,
+          "size_bytes": 16777216,
+          "sha256": "424921f16b7f18a40a7ac7c4bb8b4e2ec7de9f9fe3d864aea5c1ce6e6b5ba994"
+        },
+        {
+          "index": 43,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0044-of-0101",
+          "asset_id": 736184950,
+          "size_bytes": 16777216,
+          "sha256": "219e87700c15d32d0867db2415d3651ca5ed5109d1815ec03837565f489ab502"
+        },
+        {
+          "index": 44,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0045-of-0101",
+          "asset_id": 736184927,
+          "size_bytes": 16777216,
+          "sha256": "a12836d542dfb0f66e879a852c9bf87454731cd49690d2652d43421650d46a27"
+        },
+        {
+          "index": 45,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0046-of-0101",
+          "asset_id": 736185320,
+          "size_bytes": 16777216,
+          "sha256": "a9524df43b0f3c44d9799d08fc98074eb1b0e6c58122d8cea3753860e9bc986c"
+        },
+        {
+          "index": 46,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0047-of-0101",
+          "asset_id": 736185822,
+          "size_bytes": 16777216,
+          "sha256": "811eb9fe83618a47b077b009e7d25b8a1337119e66496434fd5a5e3e98673ae8"
+        },
+        {
+          "index": 47,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0048-of-0101",
+          "asset_id": 736185997,
+          "size_bytes": 16777216,
+          "sha256": "b44336998947a84ff733e595de47966cd14811e4a80fb0958d5613d435486c77"
+        },
+        {
+          "index": 48,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0049-of-0101",
+          "asset_id": 736186920,
+          "size_bytes": 16777216,
+          "sha256": "966715a6e717c2a337f75b9198c532fcb60287095f846c341fad3e06d5bd9687"
+        },
+        {
+          "index": 49,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0050-of-0101",
+          "asset_id": 736186603,
+          "size_bytes": 16777216,
+          "sha256": "0b7560a428cb47a7eb0a542362e843beaf339bf4a8b543a770fb6fab16985b48"
+        },
+        {
+          "index": 50,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0051-of-0101",
+          "asset_id": 736186508,
+          "size_bytes": 16777216,
+          "sha256": "c2a70261d59bf386eb246bb8fd3942b1a297f44e0f57cb4fc5ea86c49fe2d92c"
+        },
+        {
+          "index": 51,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0052-of-0101",
+          "asset_id": 736186831,
+          "size_bytes": 16777216,
+          "sha256": "2c2a3239f0f662b5eaea817c759224561c2b4dc4d68354b0d9cc38c786d39711"
+        },
+        {
+          "index": 52,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0053-of-0101",
+          "asset_id": 736187213,
+          "size_bytes": 16777216,
+          "sha256": "8b26946a2a4018927f4d1c6147c36b0fd4d0bfe52f1e10b0887137c91884a3c9"
+        },
+        {
+          "index": 53,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0054-of-0101",
+          "asset_id": 736187271,
+          "size_bytes": 16777216,
+          "sha256": "a3b10f56110f4007426e6d5cbc0654ea1efc84a0495114114404a2ef9df86be2"
+        },
+        {
+          "index": 54,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0055-of-0101",
+          "asset_id": 736187606,
+          "size_bytes": 16777216,
+          "sha256": "6c174d3812ff2979cdfed8723be37d7479cfa940e5f9d20eba2e34f9d5425bf8"
+        },
+        {
+          "index": 55,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0056-of-0101",
+          "asset_id": 736187741,
+          "size_bytes": 16777216,
+          "sha256": "4bec88d870e72986dd150f13eedce4fb988ef0963bdf76b5b7b65c43b52d2e74"
+        },
+        {
+          "index": 56,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0057-of-0101",
+          "asset_id": 736189490,
+          "size_bytes": 16777216,
+          "sha256": "6fb5d2c81c21abbf891952a1995a3f3a8e0a7157294b82134aebf88a91e86b4c"
+        },
+        {
+          "index": 57,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0058-of-0101",
+          "asset_id": 736189763,
+          "size_bytes": 16777216,
+          "sha256": "b1a4999a4f38a795a9be3a3ab9e1b00d16c919a4c208442c6b9d067558b2b5ed"
+        },
+        {
+          "index": 58,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0059-of-0101",
+          "asset_id": 736189828,
+          "size_bytes": 16777216,
+          "sha256": "08212519be2577228c5dd6dc7af9ab2257ff13ef5e6382d15a9ff4b02e98a4d6"
+        },
+        {
+          "index": 59,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0060-of-0101",
+          "asset_id": 736190317,
+          "size_bytes": 16777216,
+          "sha256": "568eb8c71ee494f8800322469a9656de5c1f0d4732a68e7b794230dc69706fee"
+        },
+        {
+          "index": 60,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0061-of-0101",
+          "asset_id": 736190671,
+          "size_bytes": 16777216,
+          "sha256": "e55ef328433d8b239122d8b0739946c56bf604472e76a4a4fa692d7a7b628aec"
+        },
+        {
+          "index": 61,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0062-of-0101",
+          "asset_id": 736190786,
+          "size_bytes": 16777216,
+          "sha256": "8395926be22960a8c028b7fdc8ef846524a4106d9e0b4468b5d0917cdaec1519"
+        },
+        {
+          "index": 62,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0063-of-0101",
+          "asset_id": 736190912,
+          "size_bytes": 16777216,
+          "sha256": "aeadcaaf17e42483f57a82d3e07ab6bcff224efd1e636e32cbb269b21ca871b1"
+        },
+        {
+          "index": 63,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0064-of-0101",
+          "asset_id": 736191031,
+          "size_bytes": 16777216,
+          "sha256": "2282851e908a7f67a7c56eb365435d95cb6498e16d46fc2a06df14353fa554e1"
+        },
+        {
+          "index": 64,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0065-of-0101",
+          "asset_id": 736199954,
+          "size_bytes": 16777216,
+          "sha256": "a79fdbbb9705ff08ce16294ca14fb3cf753c97a18a81b12b6f5fd0e0dd0622cb"
+        },
+        {
+          "index": 65,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0066-of-0101",
+          "asset_id": 736191391,
+          "size_bytes": 16777216,
+          "sha256": "12511a521322f5709278269c3925a82e0017356d708f327180097e57660e2b05"
+        },
+        {
+          "index": 66,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0067-of-0101",
+          "asset_id": 736191578,
+          "size_bytes": 16777216,
+          "sha256": "4221fe1d029a7c7eac0a694c2b6b92c77ea5acb2db4bcebd11c5c1af798213d3"
+        },
+        {
+          "index": 67,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0068-of-0101",
+          "asset_id": 736191670,
+          "size_bytes": 16777216,
+          "sha256": "2a3965eada35d8a26d5a549164ae613a07c85dae4619fbcb172bb9e1ad66c38d"
+        },
+        {
+          "index": 68,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0069-of-0101",
+          "asset_id": 736191770,
+          "size_bytes": 16777216,
+          "sha256": "bc6cad5dcc7359541d43f3c900a4fbcd43f8180ca49eaa5c3b3886997fac5ef4"
+        },
+        {
+          "index": 69,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0070-of-0101",
+          "asset_id": 736192364,
+          "size_bytes": 16777216,
+          "sha256": "9981ce204338857930615ecb06ab81c8708c38604b25833674070c65307e7ffe"
+        },
+        {
+          "index": 70,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0071-of-0101",
+          "asset_id": 736192635,
+          "size_bytes": 16777216,
+          "sha256": "9f36787f729c8ad89477bb76437464871cf92f2fd7ae97cc7e1dec52998a998e"
+        },
+        {
+          "index": 71,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0072-of-0101",
+          "asset_id": 736200324,
+          "size_bytes": 16777216,
+          "sha256": "c221fcf26aa06630378d5cb67a01d3b6c839981d90702b050fee81ea3808f756"
+        },
+        {
+          "index": 72,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0073-of-0101",
+          "asset_id": 736192993,
+          "size_bytes": 16777216,
+          "sha256": "08302de0502b8eefa3970a0fd186a8b49b376c5f579ade05350b215b7f39a540"
+        },
+        {
+          "index": 73,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0074-of-0101",
+          "asset_id": 736194536,
+          "size_bytes": 16777216,
+          "sha256": "b7197a1dbb2d0547e3754af3fcd1e4809ab0755b07db378d6f4d4f9223c1e0b2"
+        },
+        {
+          "index": 74,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0075-of-0101",
+          "asset_id": 736194717,
+          "size_bytes": 16777216,
+          "sha256": "8f4fa5288f59f65eee04a7e00b81bd856fe820e2ff1cd77bf2cdcb61c8d35701"
+        },
+        {
+          "index": 75,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0076-of-0101",
+          "asset_id": 736194791,
+          "size_bytes": 16777216,
+          "sha256": "289422117da33e92a37b5480bf9365e589b3d1a14c17d241a1657c613dc5582e"
+        },
+        {
+          "index": 76,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0077-of-0101",
+          "asset_id": 736195582,
+          "size_bytes": 16777216,
+          "sha256": "f3f5ef36d5b2903b1204c97ab06a01cd4ae4e8f685fc312c4d46577235b433b6"
+        },
+        {
+          "index": 77,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0078-of-0101",
+          "asset_id": 736195950,
+          "size_bytes": 16777216,
+          "sha256": "6c4976151070de1e702434513c11eb23fdf652e325d482d66e884d45d119f943"
+        },
+        {
+          "index": 78,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0079-of-0101",
+          "asset_id": 736196177,
+          "size_bytes": 16777216,
+          "sha256": "f560067f6f3e0cc24abed8cbe3d05682b7a21925262ed2101664d41ae25f3dba"
+        },
+        {
+          "index": 79,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0080-of-0101",
+          "asset_id": 736196218,
+          "size_bytes": 16777216,
+          "sha256": "22e79e149a45d1290191b5fae3741e62a64aa4f2d18a6ac8d4b7155ad5f31d45"
+        },
+        {
+          "index": 80,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0081-of-0101",
+          "asset_id": 736196661,
+          "size_bytes": 16777216,
+          "sha256": "0332759bebf93284399ff9842d55758199ad6133e0e1528a19c14111f000351a"
+        },
+        {
+          "index": 81,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0082-of-0101",
+          "asset_id": 736197094,
+          "size_bytes": 16777216,
+          "sha256": "06a4f0152b0276c0beae4c0c85a4bb44be0dfe09c24c8039f324425407f69e84"
+        },
+        {
+          "index": 82,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0083-of-0101",
+          "asset_id": 736205100,
+          "size_bytes": 16777216,
+          "sha256": "a3a3eb0afaee8a05b425631191c90d3d77dc45fbc704ba2489b5a3a464b6bc06"
+        },
+        {
+          "index": 83,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0084-of-0101",
+          "asset_id": 736199767,
+          "size_bytes": 16777216,
+          "sha256": "06475c3d0970179a4b359bd1509377c3a6394f494fec5199d9a0b6ae81e26c16"
+        },
+        {
+          "index": 84,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0085-of-0101",
+          "asset_id": 736200158,
+          "size_bytes": 16777216,
+          "sha256": "9d847fe66c039b91b7a287e39243cd2c4d8de50962c57b7fff4b0696bbfb516a"
+        },
+        {
+          "index": 85,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0086-of-0101",
+          "asset_id": 736200661,
+          "size_bytes": 16777216,
+          "sha256": "8fe0c29ea89e25db396a2452f1461016c143b67f802152b5bee9c21541f41ab8"
+        },
+        {
+          "index": 86,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0087-of-0101",
+          "asset_id": 736201213,
+          "size_bytes": 16777216,
+          "sha256": "5cdf08ce79eac51686f189d01da565511ccd7804b17bdc706c143e173aefc923"
+        },
+        {
+          "index": 87,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0088-of-0101",
+          "asset_id": 736201798,
+          "size_bytes": 16777216,
+          "sha256": "bf1ecf0720738bc153adec9bd6d5290f5d83d2c782688da26db6f3ab840bd0d6"
+        },
+        {
+          "index": 88,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0089-of-0101",
+          "asset_id": 736202025,
+          "size_bytes": 16777216,
+          "sha256": "97090dbc3c3906829f9389b389f48513a88d440b6f0aed5f50d859474639572f"
+        },
+        {
+          "index": 89,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0090-of-0101",
+          "asset_id": 736213648,
+          "size_bytes": 16777216,
+          "sha256": "863c43fe9fdcbd6b67c45811e508120ca1bbb706099e0e0fc834f68c8983f722"
+        },
+        {
+          "index": 90,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0091-of-0101",
+          "asset_id": 736202752,
+          "size_bytes": 16777216,
+          "sha256": "45a3dcb9747ffa847e36f9625685dd4c48435560a8d4b8dee9951dbc26b1252a"
+        },
+        {
+          "index": 91,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0092-of-0101",
+          "asset_id": 736202785,
+          "size_bytes": 16777216,
+          "sha256": "cdcffc5c65448ef682158799de7525411fcc721bc7a8b9921bdcb356cd879ce4"
+        },
+        {
+          "index": 92,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0093-of-0101",
+          "asset_id": 736203012,
+          "size_bytes": 16777216,
+          "sha256": "f9be99b872c087b6d38839b7be725b9b8dbe610727e510c9d95f5c2b8d232f78"
+        },
+        {
+          "index": 93,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0094-of-0101",
+          "asset_id": 736203418,
+          "size_bytes": 16777216,
+          "sha256": "655a149c8d9bf94a66e01c27e7a6f4f8ff63939e1d6c2318107076e5241fc064"
+        },
+        {
+          "index": 94,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0095-of-0101",
+          "asset_id": 736203534,
+          "size_bytes": 16777216,
+          "sha256": "97091e8301f9cfe01123bdc8abf3fce945c3fcad18832de582eb85c316ea51fe"
+        },
+        {
+          "index": 95,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0096-of-0101",
+          "asset_id": 736204739,
+          "size_bytes": 16777216,
+          "sha256": "fb2ef31fbc56a8085dccca82b41534731d2d4e6e3a4173b6a426806efaa626ec"
+        },
+        {
+          "index": 96,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0097-of-0101",
+          "asset_id": 736204822,
+          "size_bytes": 16777216,
+          "sha256": "89da9ed5fc8c83227c47f974555a5368fee181b874fe918af00c5483bf196e21"
+        },
+        {
+          "index": 97,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0098-of-0101",
+          "asset_id": 736205425,
+          "size_bytes": 16777216,
+          "sha256": "ac79feba5ac1a25557e55a4e992ceabc08f9fd9c6fd0c48c25cf5f98cb752bbd"
+        },
+        {
+          "index": 98,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0099-of-0101",
+          "asset_id": 736205733,
+          "size_bytes": 16777216,
+          "sha256": "92e830b5b2335e54cce00b247bfa35659a6be575d0724aed76274bf528be002f"
+        },
+        {
+          "index": 99,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0100-of-0101",
+          "asset_id": 736205850,
+          "size_bytes": 16777216,
+          "sha256": "685e75ef394e5c6efe1374274d224c849a218fa7d03ce95e641c0c75e7b3c946"
+        },
+        {
+          "index": 100,
+          "asset_name": "tmp985-20261111a-01-calculus-985.zip.part0101-of-0101",
+          "asset_id": 736205935,
+          "size_bytes": 11274457,
+          "sha256": "6e72dcaf033982cb38f649747456338223b598e062a00b5536e8cb35e2971849"
+        }
+      ]
+    },
+    {
+      "name": "02-linear-algebra-985.zip",
+      "size_bytes": 800797070,
+      "sha256": "6b3fc2031995c58439c3dc2d4e0bb9962d5fcfa0533c301762edcff83bd41e58",
+      "parts": []
+    },
+    {
+      "name": "03-university-physics-985.zip",
+      "size_bytes": 1050989168,
+      "sha256": "1e34d584f3c1f94d5bb4114d15ad079179bb0e9e8a68adc4ba9e1e17a1963fb7",
+      "parts": [
+        {
+          "index": 0,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0001-of-0063",
+          "asset_id": 736206094,
+          "size_bytes": 16777216,
+          "sha256": "414790a66a0dd861609eb42d3dcf681844bad1522484cf57954cf445b8a77cfd"
+        },
+        {
+          "index": 1,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0002-of-0063",
+          "asset_id": 736206381,
+          "size_bytes": 16777216,
+          "sha256": "84f18104426de77d39517c3e5073cc721d35faf44de79391cca8b6802202356a"
+        },
+        {
+          "index": 2,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0003-of-0063",
+          "asset_id": 736206388,
+          "size_bytes": 16777216,
+          "sha256": "09708be4b08e442eb3cc54cf66afefa915b81c297e52d74e11e542245e821f03"
+        },
+        {
+          "index": 3,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0004-of-0063",
+          "asset_id": 736206548,
+          "size_bytes": 16777216,
+          "sha256": "a1fa88edba8012fb6fcd14a0e3c751af51888f1e3aebca5daa2e5c35fdd41125"
+        },
+        {
+          "index": 4,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0005-of-0063",
+          "asset_id": 736206651,
+          "size_bytes": 16777216,
+          "sha256": "1241d1003e046d6509203975027f911aa4810a0da951c4ef1147f2bafed77317"
+        },
+        {
+          "index": 5,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0006-of-0063",
+          "asset_id": 736206910,
+          "size_bytes": 16777216,
+          "sha256": "ad6a9cea58143333c1b2633650fff4f26a20d6b817f62b172a561e7797293b00"
+        },
+        {
+          "index": 6,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0007-of-0063",
+          "asset_id": 736207365,
+          "size_bytes": 16777216,
+          "sha256": "799a4c5a0e8859d4860a08dd7b9e62a0e48342edba7d6eeb84ddca03b6afaa42"
+        },
+        {
+          "index": 7,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0008-of-0063",
+          "asset_id": 736207537,
+          "size_bytes": 16777216,
+          "sha256": "5f38f64a2c26f9cec9cbaa624ae2e4e383f1405315b6403e771e53af7a927c8a"
+        },
+        {
+          "index": 8,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0009-of-0063",
+          "asset_id": 736207637,
+          "size_bytes": 16777216,
+          "sha256": "0ad2d92ed9380af0c2d51add5c1ff85c7adcc1972461fbebbabc5e31d11872d1"
+        },
+        {
+          "index": 9,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0010-of-0063",
+          "asset_id": 736207753,
+          "size_bytes": 16777216,
+          "sha256": "53fe35572fb83f4f89ad4ee35006c22ae3d16adf8265d18cdce22420646c0621"
+        },
+        {
+          "index": 10,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0011-of-0063",
+          "asset_id": 736208003,
+          "size_bytes": 16777216,
+          "sha256": "616be7123e016e5c3f1f01dcd41d945cdc730fb44deddb3ce9ef024c9d5bd571"
+        },
+        {
+          "index": 11,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0012-of-0063",
+          "asset_id": 736208142,
+          "size_bytes": 16777216,
+          "sha256": "f1114f3ab7f86fad0388d7fb7bc26d5686f0a550b2122aea1c519acf218dbe3f"
+        },
+        {
+          "index": 12,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0013-of-0063",
+          "asset_id": 736208355,
+          "size_bytes": 16777216,
+          "sha256": "170ab07158e2373848e78d7a732e5701b98e424be3916599ffc8bd2712925740"
+        },
+        {
+          "index": 13,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0014-of-0063",
+          "asset_id": 736208544,
+          "size_bytes": 16777216,
+          "sha256": "c59095ba4a1ede8da50d9a8c085d1038de8faf7f10b7754dde17823c826f8fbb"
+        },
+        {
+          "index": 14,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0015-of-0063",
+          "asset_id": 736208886,
+          "size_bytes": 16777216,
+          "sha256": "761f9d16376bd2836b31036e96410b5e3b8dabd6fc35b50e8df221104abf1e92"
+        },
+        {
+          "index": 15,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0016-of-0063",
+          "asset_id": 736208881,
+          "size_bytes": 16777216,
+          "sha256": "bce3789f74f41f6841372bc0d73fb797dd734ed80fc95aaed48f165fb29b3521"
+        },
+        {
+          "index": 16,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0017-of-0063",
+          "asset_id": 736209146,
+          "size_bytes": 16777216,
+          "sha256": "4b1c3dfae8e949f9a2fa2c36a385a29138af4cacaa0c74807c4a3718b72d283b"
+        },
+        {
+          "index": 17,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0018-of-0063",
+          "asset_id": 736209570,
+          "size_bytes": 16777216,
+          "sha256": "6807a93b081f1846039c5f51df90fe17dc332608d23f274d6bc6176fe6743bed"
+        },
+        {
+          "index": 18,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0019-of-0063",
+          "asset_id": 736209568,
+          "size_bytes": 16777216,
+          "sha256": "e27494e272bf6666cce8564cc6de33d942f256ab4ede07e9b2d871f793e3ae23"
+        },
+        {
+          "index": 19,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0020-of-0063",
+          "asset_id": 736209747,
+          "size_bytes": 16777216,
+          "sha256": "c3fd9bbd188b4b479b5d6a0f095a4c059acbe39aa69cfb5c9a956746d51c19e1"
+        },
+        {
+          "index": 20,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0021-of-0063",
+          "asset_id": 736209906,
+          "size_bytes": 16777216,
+          "sha256": "5f1a5a7e360411d08638453cb9ffdfa8cf13f145fc1b7acace75b748db785a35"
+        },
+        {
+          "index": 21,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0022-of-0063",
+          "asset_id": 736210267,
+          "size_bytes": 16777216,
+          "sha256": "d3df97a60a66edf697bd7be0b59511d922cfa9b1307f1827563922296e596be8"
+        },
+        {
+          "index": 22,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0023-of-0063",
+          "asset_id": 736210458,
+          "size_bytes": 16777216,
+          "sha256": "39892ef8a7e104d5bfef77e3d4f5b3be6d93813cac5a9e45e7180101e4226e21"
+        },
+        {
+          "index": 23,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0024-of-0063",
+          "asset_id": 736210762,
+          "size_bytes": 16777216,
+          "sha256": "29b01d5e80fee326323d59c5a3bea7a18a3fca1158b8e49db4a4b334e41883e1"
+        },
+        {
+          "index": 24,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0025-of-0063",
+          "asset_id": 736210969,
+          "size_bytes": 16777216,
+          "sha256": "4856560ab52542f460cd089b16dae39930e61ffeb31e9cecf0c1801d25aaa9ce"
+        },
+        {
+          "index": 25,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0026-of-0063",
+          "asset_id": 736211254,
+          "size_bytes": 16777216,
+          "sha256": "05c70d91cfb553f8128aae5efa87ed6df958af1919513af21674bd6728d5f8e3"
+        },
+        {
+          "index": 26,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0027-of-0063",
+          "asset_id": 736211215,
+          "size_bytes": 16777216,
+          "sha256": "28426a3f2a1c01d8828840040aba3e4d99a2a4e799a918ce4328578af1c48fa9"
+        },
+        {
+          "index": 27,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0028-of-0063",
+          "asset_id": 736211511,
+          "size_bytes": 16777216,
+          "sha256": "3578ece30a4969e8533311f3ebbf50d01481072d8536fa893efbb2b36a6945d2"
+        },
+        {
+          "index": 28,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0029-of-0063",
+          "asset_id": 736211793,
+          "size_bytes": 16777216,
+          "sha256": "767fb5e2de3da26baabb8ee9b3433ae6d26bd1203c6a2e923e462001f1fd6897"
+        },
+        {
+          "index": 29,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0030-of-0063",
+          "asset_id": 736211866,
+          "size_bytes": 16777216,
+          "sha256": "22b92335bfad105c588f98dbff3ae8a7b7d4185e222cc52a322e9f92cc904313"
+        },
+        {
+          "index": 30,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0031-of-0063",
+          "asset_id": 736211797,
+          "size_bytes": 16777216,
+          "sha256": "7755dfb196a5bce282fb015114ddbc0b7aca54dfb858b922645325e1b2533f17"
+        },
+        {
+          "index": 31,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0032-of-0063",
+          "asset_id": 736212073,
+          "size_bytes": 16777216,
+          "sha256": "192182b0455d0775c07ee64eec732a4578939c2a8180e85edc6b30428e8ed1b4"
+        },
+        {
+          "index": 32,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0033-of-0063",
+          "asset_id": 736212312,
+          "size_bytes": 16777216,
+          "sha256": "3b1eab097ab69cfc49117911be78d14f8471e687ba926a8231f6d714efde13d4"
+        },
+        {
+          "index": 33,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0034-of-0063",
+          "asset_id": 736212343,
+          "size_bytes": 16777216,
+          "sha256": "54a97fa236109074e23576cbc2a996c59280da1b9c7f406aa1e8c62af491cc1b"
+        },
+        {
+          "index": 34,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0035-of-0063",
+          "asset_id": 736212677,
+          "size_bytes": 16777216,
+          "sha256": "520d08dbd7e23183123025869431e8ffd4e547e25281b176293026985a108db2"
+        },
+        {
+          "index": 35,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0036-of-0063",
+          "asset_id": 736212753,
+          "size_bytes": 16777216,
+          "sha256": "2da3d8c2787da3d9cefc64b69baed43bb7e1ada6c4343e4871a34ed08d2a2a08"
+        },
+        {
+          "index": 36,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0037-of-0063",
+          "asset_id": 736213394,
+          "size_bytes": 16777216,
+          "sha256": "7afb405dd747d68cfa2b473d3ff3f9d6f0af5f5da716ebd3365ec4698b35964e"
+        },
+        {
+          "index": 37,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0038-of-0063",
+          "asset_id": 736214174,
+          "size_bytes": 16777216,
+          "sha256": "30e5db532a57156f0e959483c315423ba48d30bf7b83baed7d63d052e19eb1c3"
+        },
+        {
+          "index": 38,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0039-of-0063",
+          "asset_id": 736214178,
+          "size_bytes": 16777216,
+          "sha256": "0b9e7a3dc35a467d142a5834b2990019f1aee2031debe9bb0b61ced2485f3889"
+        },
+        {
+          "index": 39,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0040-of-0063",
+          "asset_id": 736214420,
+          "size_bytes": 16777216,
+          "sha256": "130bfefbe6372cb73e182c4d110515fc4166f93cdc7afc48b679aca88a5ae9dd"
+        },
+        {
+          "index": 40,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0041-of-0063",
+          "asset_id": 736214858,
+          "size_bytes": 16777216,
+          "sha256": "5e40acf42b1427b4a326d8d2330878305eaef9e11faf5145fb254a34fbb92703"
+        },
+        {
+          "index": 41,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0042-of-0063",
+          "asset_id": 736215717,
+          "size_bytes": 16777216,
+          "sha256": "5d9c4a0bf82cfbbee1a1ba5fd2ad0e3035a7830c665235835562c99d4b7da1c9"
+        },
+        {
+          "index": 42,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0043-of-0063",
+          "asset_id": 736215714,
+          "size_bytes": 16777216,
+          "sha256": "e882d87747243ea2b85a6503d8f8d5ddc4ba9be1d46556979118850f569b668e"
+        },
+        {
+          "index": 43,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0044-of-0063",
+          "asset_id": 736215711,
+          "size_bytes": 16777216,
+          "sha256": "ac19e40b83e8b0a330478f5774ff5431aed0f604756b4fed396d205a0fb9d27b"
+        },
+        {
+          "index": 44,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0045-of-0063",
+          "asset_id": 736215708,
+          "size_bytes": 16777216,
+          "sha256": "8c43f5390c0868cc693277529b9487a5023c38a77c91410bff1f0ca117b0d1bd"
+        },
+        {
+          "index": 45,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0046-of-0063",
+          "asset_id": 736217890,
+          "size_bytes": 16777216,
+          "sha256": "94a3fe483ccbf40b361125163f434539aaa035434020109c2c39bdb8458c54e1"
+        },
+        {
+          "index": 46,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0047-of-0063",
+          "asset_id": 736216734,
+          "size_bytes": 16777216,
+          "sha256": "fa1fa85a7d7a04f44a39509d65a0ca7cfa59761bb7858a2e38a42505a802e86c"
+        },
+        {
+          "index": 47,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0048-of-0063",
+          "asset_id": 736216737,
+          "size_bytes": 16777216,
+          "sha256": "86c18e10fb019c45c8b9fd9c369b0674d9789e750487c207e380c16836001a96"
+        },
+        {
+          "index": 48,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0049-of-0063",
+          "asset_id": 736217286,
+          "size_bytes": 16777216,
+          "sha256": "09829de4ef979ec5704dc03a363e0d08a7a0f84ef7af6d5fd03b498805916c18"
+        },
+        {
+          "index": 49,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0050-of-0063",
+          "asset_id": 736217893,
+          "size_bytes": 16777216,
+          "sha256": "7c9fef939a11f4497a94cc69bfa21ac69d8a4d1b88283c5d3185883e7566686f"
+        },
+        {
+          "index": 50,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0051-of-0063",
+          "asset_id": 736217891,
+          "size_bytes": 16777216,
+          "sha256": "c88280bef5c3aad94873981ce5613b3d9bc8820626588b9018d638e836af35fe"
+        },
+        {
+          "index": 51,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0052-of-0063",
+          "asset_id": 736218126,
+          "size_bytes": 16777216,
+          "sha256": "0c1da2cfec2af26a592661462a943ec34c604dda59a57cfd67b68726a8ac685a"
+        },
+        {
+          "index": 52,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0053-of-0063",
+          "asset_id": 736219728,
+          "size_bytes": 16777216,
+          "sha256": "d59e3f74fffdc50be1bb1ea21910764555db896fb73f47801441dc95185cb5c3"
+        },
+        {
+          "index": 53,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0054-of-0063",
+          "asset_id": 736220069,
+          "size_bytes": 16777216,
+          "sha256": "eb9848d60d9805736e998e24bcf27d912110f3933abb7a511ab60c07a9e2d1c0"
+        },
+        {
+          "index": 54,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0055-of-0063",
+          "asset_id": 736220450,
+          "size_bytes": 16777216,
+          "sha256": "3b9943f7f49846da1bb13ca7fa5728efe44f6d81d59c6fc266b05f1856db73da"
+        },
+        {
+          "index": 55,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0056-of-0063",
+          "asset_id": 736220632,
+          "size_bytes": 16777216,
+          "sha256": "98913716c5c1483ecc0c56716f4b63851505be19390130387b09799705a71294"
+        },
+        {
+          "index": 56,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0057-of-0063",
+          "asset_id": 736221109,
+          "size_bytes": 16777216,
+          "sha256": "1fc0fea526b0839c666592ae03701ea2e5d2c6a7da087cb700dc4b061f4bfaa1"
+        },
+        {
+          "index": 57,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0058-of-0063",
+          "asset_id": 736221384,
+          "size_bytes": 16777216,
+          "sha256": "7513b7c1400f8cf88f4e5f781d0c4fadf1c9f7f7a9cad27ef53f06509e8ee042"
+        },
+        {
+          "index": 58,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0059-of-0063",
+          "asset_id": 736222070,
+          "size_bytes": 16777216,
+          "sha256": "dba1a5469f39815bc4b7b0b2a1ef25285386328cb3ff4609ea623d00cec375f2"
+        },
+        {
+          "index": 59,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0060-of-0063",
+          "asset_id": 736222452,
+          "size_bytes": 16777216,
+          "sha256": "0d3164314195c96c77e3e145d9a81e7365b1a1202654a0913f90fca3aa9f768f"
+        },
+        {
+          "index": 60,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0061-of-0063",
+          "asset_id": 736222850,
+          "size_bytes": 16777216,
+          "sha256": "262eecc5ab9079f3d755e69ab83946ceeb0e9505341df53a355e473075121931"
+        },
+        {
+          "index": 61,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0062-of-0063",
+          "asset_id": 736223614,
+          "size_bytes": 16777216,
+          "sha256": "7f1ef5841c3b0d3541cc986ee485b7711872f1d3234d115f25c2b6c6ba3e68ce"
+        },
+        {
+          "index": 62,
+          "asset_name": "tmp985-20261111a-03-university-physics-985.zip.part0063-of-0063",
+          "asset_id": 736224233,
+          "size_bytes": 10801776,
+          "sha256": "863622ed7174c690fce4420f381636243c50c76974d4889d1d93297a9c444a9b"
+        }
+      ]
+    }
+  ]
+}
